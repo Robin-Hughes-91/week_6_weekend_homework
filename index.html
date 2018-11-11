@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Cryptozoology Monster Tracker</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <script src="js/app.js"></script>
+  </head>
+  <body>
+    <form id="new-item-form">
+      <div id="form-wrapper">
+        <div class="form-item">
+          <label for="name" class="primary">Name</label>
+          <input type="text" id="name" required/>
+        </div>
+
+        <div class="form-item">
+          <label for="species" class="primary">Species</label>
+          <input type="text" id="species" required/>
+        </div>
+
+        <div class="form-item">
+          <label for="picture" class="primary">Picture evidence URL</label>
+          <input type="url" id="picture" required/>
+        </div>
+
+        <div class="form-item">
+          <label for="location" class="primary">Location</label>
+            <input type = "radio"   id="location" value="Canada">Canada</input>
+            <input type = "radio"   id="location" value="Scotland">Scotland</input>
+            <input type = "radio"   id="location" value="Mongolia">Mongolia</input>
+        </div>
+      </div>
+      <input type="submit" value="save"/>
+    </form>
+
+    <button id="delete-all">Delete All</button>
+
+    <h1>Monster Tracker</h1>
+    <div id="monster-list"></div>
+  </body>
+</html>
