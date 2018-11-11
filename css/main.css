@@ -1,5 +1,8 @@
 body {
   font-family: Palatino;
+  background-color: black;
+  color:   #cccccc;
+
 }
 
 #form-wrapper {
@@ -36,5 +39,6 @@ button, input[type="submit"] {
   padding: 0.5rem 0.8rem;
   border: 1px solid #20437c;
   border-radius: 5%;
-  background: #ddeaff;
+  background-color:  #404040;
+  color:  #cccccc;
 }
